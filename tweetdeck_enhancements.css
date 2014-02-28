@@ -1,0 +1,8 @@
+.js-app-columns {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.js-column {
+    flex: 1 !important;
+}
