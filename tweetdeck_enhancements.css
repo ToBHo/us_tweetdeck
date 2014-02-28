@@ -1,8 +1,9 @@
-.js-app-columns {
+.js-app-columns{
     display: flex !important;
-    justify-content: space-between;
+    display: -webkit-flex !important;
 }
 
-.js-column {
+.js-column{
     flex: 1 !important;
+    -webkit-flex: 1 !important;
 }
