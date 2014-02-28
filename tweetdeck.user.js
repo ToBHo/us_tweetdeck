@@ -5,7 +5,7 @@
 // @include     https://tweetdeck.twitter.com/
 // @version     1
 // @grant       GM_addStyle
-// @resource    style tweetdeck_enhancements.css
+// @resource    style https://github.com/ToBHo/us_tweetdeck/blob/master/tweetdeck_enhancements.css
 // ==/UserScript==
 var cssTxt = GM_getResourceText('style');
 GM_addStyle(cssTxt);
