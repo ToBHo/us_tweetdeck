@@ -8,10 +8,10 @@
 // @grant       none
 // ==/UserScript==
 
-var styleOrigin = 'https://github.com/ToBHo/us_tweetdeck/raw/master/tweetdeck_enhancements.css';
+var styleOrigin = 'https://tobho.github.io/tweetdeck.css';
 
 addStyleSheet = function(origin){
-    var head = document.getElementsByTagName('head')[0];
+    var head = document.head;
     var link = document.createElement('link');
     link.setAttribute('rel','stylesheet');
     link.setAttribute('href', origin);

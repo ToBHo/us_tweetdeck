@@ -1,9 +1,0 @@
-.js-app-columns{
-    display: flex !important;
-    display: -webkit-flex !important;
-}
-
-.js-column{
-    flex: 1 !important;
-    -webkit-flex: 1 !important;
-}
